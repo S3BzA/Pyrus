@@ -8,7 +8,7 @@ To this end, each script may likely not be generally useful, but hopefully reall
 
 ## Current Scripts
 
-1. palettizer.py - A script that takes in an image and recolours it according to a provided colour palette (Still in development).
+1. **palettizer.py** - A script that takes in an image and recolours it according to a provided colour palette (Still in development).
 
 ## Setup
 
