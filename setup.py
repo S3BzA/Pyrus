@@ -45,7 +45,7 @@ setup(
         'radb==3.0.4',
         'requests==2.31.0',
         'scapy==2.5.0',
-        'setuptools==65.5.0',
+        'setuptools==65.5.1',
         'six==1.16.0',
         'SQLAlchemy==2.0.7',
         'twisted-iocpsupport==1.0.3',
