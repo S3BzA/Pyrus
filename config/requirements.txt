@@ -26,7 +26,7 @@ matplotlib==3.7.1
 numpy==1.25.0
 opencv-python==4.7.0.72
 openpyxl==3.1.2
-packaging==21.3
+packaging==23.1
 pandas==2.0.2
 pdfminer==20191125
 Pillow==9.5.0
