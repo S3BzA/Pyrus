@@ -9,6 +9,7 @@ To this end, each script may likely not be generally useful, but hopefully reall
 ## Current Scripts
 
 1. **palettizer.py** - A script that takes in an image and recolours it according to a provided colour palette (Still in development).
+2. **pydf.py** - A script that given a .pdf with a table(s) in it, will convert said tables into an unformatted .html equivalent (Still in development).
 
 ## Setup
 
