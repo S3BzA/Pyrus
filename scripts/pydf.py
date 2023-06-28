@@ -1,22 +1,15 @@
-# Version 1.0
-import tabula
+# Version 2.0
+import camelot
 
-def pdf_2_table(input_path, output_path):
-    tables = tabula.read_pdf(input_path, pages='all', multiple_tables=True)
+def pdf_to_html_table(input_path, output_path):
+    tables = camelot.read_pdf(input_path, flavor='stream', pages='all')
 
     html = "<html><body>"
     for table in tables:
-        html += "<table>"
-        for row in table.values:
-            html += "<tr>"
-            for cell in row:
-                html += f"<td>{cell}</td>"
-            html += "</tr>"
-        html += "</table>"
+        html += table.df.to_html(index=False, header=False)
     html += "</body></html>"
 
-    with open(output_path, 'w', encoding='utf-8') as file:
+    with open(output_path, 'w') as file:
         file.write(html)
 
-
-pdf_2_table('input.pdf', 'output.html')
+pdf_to_html_table('data.pdf', 'output.html')
