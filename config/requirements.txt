@@ -55,7 +55,7 @@ safety==2.3.5
 scapy==2.5.0
 setuptools==68.0.0
 six==1.16.0
-SQLAlchemy==2.0.17
+SQLAlchemy==2.0.18
 tabula-py==2.7.0
 toml==0.10.2
 tqdm==4.65.0
