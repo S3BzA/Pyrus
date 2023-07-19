@@ -45,7 +45,7 @@ python-nmap==0.7.1
 pytools==2023.1
 pytz==2023.3
 pyupio==1.1.2
-PyYAML==6.0
+PyYAML==6.0.1
 radb==3.0.4
 requests==2.31.0
 requests-toolbelt==1.0.0
