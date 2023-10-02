@@ -62,7 +62,7 @@ tqdm==4.65.0
 twisted-iocpsupport==1.0.3
 typing_extensions==4.7.1
 tzdata==2023.3
-urllib3==2.0.3
+urllib3==2.0.6
 wheel==0.40.0
 wrapt==1.15.0
 zope.interface==6.0
