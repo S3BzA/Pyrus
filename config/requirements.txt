@@ -14,7 +14,7 @@ Deprecated==1.2.14
 distro==1.8.0
 dparse==0.6.3
 et-xmlfile==1.1.0
-fonttools==4.41.0
+fonttools==4.43.1
 greenlet==2.0.2
 hyperlink==21.0.0
 idna==3.4
